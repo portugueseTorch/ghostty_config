@@ -1,0 +1,24 @@
+background = "#1E1E2E"
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+window-colorspace = display-p3
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+keybind = cmd+r=reload_config
+
+keybind = cmd+shift+up=new_split:up
+keybind = cmd+shift+left=new_split:left
+keybind = cmd+shift+right=new_split:right
+keybind = cmd+shift+down=new_split:down
+keybind = cmd+up=goto_split:up
+keybind = cmd+left=goto_split:left
+keybind = cmd+right=goto_split:right
+keybind = cmd+down=goto_split:down
+keybind = cmd+shift+equal=equalize_splits
+
+keybind = global:cmd+shift+t=toggle_quick_terminal
+quick-terminal-position = bottom
+quick-terminal-animation-duration = 0
+
